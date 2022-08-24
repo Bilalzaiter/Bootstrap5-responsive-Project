@@ -1,0 +1,172 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif!important
+}
+body{
+    background-color: #777!important;
+}
+body h2{
+    padding: 20px 0!important
+}
+/* small screen */
+@media (min-width:768px){
+    .container {
+        width: 750px;
+    }
+}
+/* medium screen */
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+/* large screen */
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+a{
+    color: #b9cce2!important;
+}
+a:hover{
+    color: #ffffff!important;
+}
+.border-right{
+    padding: 10px 0;
+    border-right: 1px solid #ccc
+}
+.bg-secondary{
+    opacity: .7
+}
+.navbar-brand a{
+    font-size: 1.15rem;
+    line-height: 1.15rem!important;
+    text-decoration: none
+}
+.navbar-brand{
+    transition: 0.4s;
+}
+.navbar-brand:hover{
+    text-shadow: 10px 10px 20px white,
+                -10px -10px 20px white;
+}
+.navbar-toggler:focus, .navbar-toggler:hover{
+    outline: 5px solid rgb(52, 51, 51)!important
+}
+.form-control{
+    background-color: #ced4da!important
+}
+.button-grey{
+    border-color:  #ced4da!important
+}
+.button-grey:hover{
+    background-color: #ced4da!important
+}
+.text-grey{
+    color:#dce1e7!important
+}
+.dropdown-menu li a{
+    text-transform: capitalize;
+    color: #777!important;
+    text-shadow: 1px 1px 0px black;
+}
+.dropdown-menu li a:hover{
+    color: #dce1e7!important
+}
+.dropdown-menu{
+    background-color: inherit;
+    opacity: .8
+}
+.carousel-inner h1{
+    text-shadow: 1px 1px #333;
+}
+.carousel-inner .carousel-caption{
+    padding-top: 55px;
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 7px;
+    height:180px
+}
+.card-body h2{
+    font-size: 40px;
+}
+code{
+    font-size: 20px!important
+}
+.code{
+    margin: 40px 80px!important
+}
+.btnbefo{
+    position: relative;
+    left: 30px;
+}
+.btnbefo::before{
+position: absolute;
+content: "";
+border-width: 10px;
+border-style: solid;
+border-color: transparent transparent lightblue transparent;
+top: 20px;
+left: 13px;
+display: none;
+}
+.btnbefo::after{
+position: absolute;
+content: " ";
+height: 40px;
+width: 80px;
+background-color: lightblue;
+top: 40px;
+left: -15px;
+border-radius: 5px;
+display: none;
+}
+.btnbefo:active::before,
+.btn:hover::before{
+    display: block;
+
+}
+.btnbefo:hover::after{
+    content: "copy to clipboard";
+    display: block;
+}
+.btnbefo:active::after{
+    content: "copied";
+    display: block;
+    height: 25px;
+}
+.background-fixed{
+    width: 100%;
+    height: 300px;
+    background: url(../images//خلفيات-كمبيوتر-موقع-محيط-_182048401_-__.jpg) no-repeat fixed ;
+}
+.card-width{
+    width: 288px!important
+}
+
+.card{
+    text-transform: capitalize!important
+}
+.background-fixed-1{
+    margin: 0!important;
+    width: 100%;
+    height:300px;
+    background: url(../images/خلفيات-كمبيوتر-موقع-محيط-_1_-1536x864.png) no-repeat fixed ;
+}
+img[src]{
+    align-self: center;
+}
+.myicon {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 17px;
+}
+div.col-md-4 hr{
+    width:100%;
+    height: 2px !important;
+    background:rgb(111, 111, 111)!important
+}
