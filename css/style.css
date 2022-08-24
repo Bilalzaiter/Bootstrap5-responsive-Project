@@ -31,7 +31,7 @@ body h2{
     }
 }
 .container-fluid{
-    overflow: hidden!important
+    overflow: hidden!important;
 }
 a{
     color: #b9cce2!important;
